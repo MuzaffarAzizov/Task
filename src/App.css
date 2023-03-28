@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.scroll-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding: 1rem;
+}
+
+.card {
+  width: 284px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  padding: 1%;
+  margin: 1% 2%;
+  transition: transform 0.3s ease-in-out;
+}
+.data__child {
+  background-color: #ffffff;
+}
+.row {
+  display: flex;
+  gap: 2%;
+  background-color: #ffffff;
+}
+.pink {
+  margin-bottom: 5%;
+  background: #f6f2ff;
+  border-radius: 4px;
+  width: 120px;
+  margin: 1%;
+  padding: 2%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #856ec6;
+}
+.number1,
+.number2,
+.data {
+  background: #fafffc;
+  border: 1px solid #ebf3ef;
+  border-radius: 4px;
+  width: 45px;
+  text-align: center;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 13px;
+  color: #414644;
+}
+
+h5 {
+  background: #f2faf6;
+  width: 274px;
+  height: 39px;
+  border-bottom: 1px solid #c9d2ce;
+  border-radius: 3px 3px 0px 0px;
+  margin-left: 2%;
+  align-items: center;
+  padding: 1%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #414644;
+}
+p {
+  margin: 2% 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #6d7471;
+}
+.data {
+  display: flex;
+  align-items: center;
+  gap: 15%;
+  margin-top: 5%;
+  margin: 5%;
+}
+.img {
+  width: 28px;
+  height: 28px;
+}
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #414644;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+}
