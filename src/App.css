@@ -5,7 +5,10 @@
   margin: 0;
   padding: 0;
 }
-
+.scroll {
+  display: flex;
+  justify-content: space-around;
+}
 .scroll-container {
   display: flex;
   flex-direction: column;
@@ -13,14 +16,22 @@
   overflow-x: scroll;
   padding: 1rem;
 }
-
+h1 {
+  background: #2ea97d;
+  box-shadow: 0px 1px 16px rgba(72, 109, 96, 0.06);
+  height: 44px;
+  text-align: center;
+}
+h2 {
+  margin-left: 8%;
+}
 .card {
   width: 284px;
   height: 200px;
   background-color: #ffffff;
   border-radius: 0.25rem;
   padding: 1%;
-  margin: 1% 2%;
+  margin: 5% 2%;
   transition: transform 0.3s ease-in-out;
 }
 .data__child {
